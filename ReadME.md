@@ -21,12 +21,3 @@ cmake -S . -B build -G "Visual Studio 16 2019" -DCMAKE_INSTALL_PREFIX=install
 # Build and install
 cmake --build build --config Release --target install
 ```
-
-
-
-
-
-https://github.com/PBfordev
-
-https://github.com/PBfordev/TestWxAsSubmodule
-
