@@ -16,6 +16,15 @@ target_sources(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME} wx::core wx::base)
 
+# set_target_properties(
+#     ${PROJECT_NAME} 
+#     PROPERTIES 
+#     SKIP_BUILD_RPATH FALSE
+#     BUILD_WITH_INSTALL_RPATH FALSE
+#     INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_LIBDIR}"
+#     INSTALL_RPATH_USE_LINK_PATH TRUE
+# )
+
 # Install
 install(
     TARGETS ${PROJECT_NAME}
