@@ -21,3 +21,6 @@ cmake -S . -B build -G "Visual Studio 16 2019" -DCMAKE_INSTALL_PREFIX=install
 # Build and install
 cmake --build build --config Release --target install
 ```
+
+## References
+- [Can't find the shared library in Ubuntu issue](https://stackoverflow.com/questions/32469953/why-is-cmake-designed-so-that-it-removes-runtime-path-when-installing)
